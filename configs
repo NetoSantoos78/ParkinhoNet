@@ -1,0 +1,289 @@
+[
+    {
+        "name": "Vivo - Socket",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Vivo",
+            "color": "#80000000",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "[delay_split][crlf]GET / HTTP/1.1[lf]Host: portalrecarga.vivo.com.br[lf]Upgrade: websocket[lf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/804122659efca6460623.06852491.png",
+        "proxy": {
+            "host": "parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Vivo - SSL",
+        "description": "",
+        "mode": "SSL_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Vivo",
+            "color": "#80000000",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET wss://parkinhonet.xyz/ HTTP/1.1\nHost: parkinhonet.xyz\nUpgrade: Websocket\nConnection:Upgrade\nSec-WebSocket-Key: dGhlIHNhbXBsZSBub25jZQ==\nSec-WebSocket-Version: 13\nUser-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.94 Safari/537.36[lf][lf]",
+            "sni": "parkinhonet.xyz"
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/804122659efca6460623.06852491.png",
+        "proxy": {
+            "host": "162.159.140.159#172.66.0.157#172.67.74.152#104.26.12.205",
+            "port": 443
+        },
+        "server": {
+            "host": "parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Tim - Socks",
+        "description": "Modo avião algumas vezes caso não pegue!!",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 0,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Tim",
+            "color": "#80000000",
+            "sorter": 2
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "HTTP/1.1 8080[crlf]Host: http://https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]Connection: keep-alive[crlf]User-Agent: Dalvik/2.1.0 (Linux; U; Android 7.1.2; DM-01K Build/N2G47H)[crlf]X-Online-Host: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf]X-Forwarded-For: https://cacerts.digicert.com;http://crt.rootg2.amazontrust.com;https://www.wikipedia.org;http://chats.viber.com;https://www.dailymotion.com;https://www.ebay.com[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/997579659efd13059642.97445522.png",
+        "proxy": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Tim - Patch",
+        "description": "Modo avião algumas vezes caso não pegue!!",
+        "mode": "SSH_DIRECT",
+        "tls_version": "TLSv1.2",
+        "sorter": 0,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Tim",
+            "color": "#80000000",
+            "sorter": 2
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "PATCH HTTP/ \\n\\n#HTTP/ \\n\\n",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/997579659efd13059642.97445522.png",
+        "proxy": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Fluke - Socks",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Fluke",
+            "color": "#80000000",
+            "sorter": 3
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET http://db.parkinhonet.xyz/ [protocol][crlf]Host: waze.com[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/90523965f62edfde6737.21919317.png",
+        "proxy": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Fluke - Whatsapp",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Fluke",
+            "color": "#80000000",
+            "sorter": 3
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET http://db.parkinhonet.xyz/ [protocol][crlf]Host: web.whatsapp.com[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/90523965f62edfde6737.21919317.png",
+        "proxy": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "db.parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Fluke - Waze",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "Fluke",
+            "color": "#80000000",
+            "sorter": 3
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET http://parkinhonet.xyz/ HTTP/1.1[crlf]Host: waze.com[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://v-public-content-chile.rocketcompany.click/90523965f62edfde6737.21919317.png",
+        "proxy": {
+            "host": "parkinhonet.xyz",
+            "port": 80
+        },
+        "server": {
+            "host": "parkinhonet.xyz",
+            "port": 80
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    }
+]
