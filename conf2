@@ -1,7 +1,7 @@
 [
   {
     "id": 816390,
-    "category_id": 52835,
+    "category_id": 1,
     "name": "Update online",
     "description": "",
     "config_payload": {
@@ -46,7 +46,7 @@
   },
   {
     "id": 816393,
-    "category_id": 52835,
+    "category_id": 1,
     "name": "CONTROLE 2",
     "description": "",
     "config_payload": {
@@ -91,7 +91,7 @@
   },
   {
     "id": 816394,
-    "category_id": 52835,
+    "category_id": 1,
     "name": "PRÉ",
     "description": "",
     "config_payload": {
@@ -136,7 +136,7 @@
   },
   {
     "id": 816395,
-    "category_id": 52835,
+    "category_id": 1,
     "name": "EASY PRIME",
     "description": "",
     "config_payload": {
