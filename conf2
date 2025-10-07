@@ -137,10 +137,10 @@
   {
     "id": 816395,
     "category_id": 1,
-    "name": "EASY PRIME",
-    "description": "",
+    "name": "Tim",
+    "description": "Testes",
     "config_payload": {
-      "payload": "GET / HTTP/1.1 [crlf]Host:[host][crlf]Upgrade: websocket[crlf][crlf]",
+      "payload": "GET / HTTP/1.1[crlf]Host: bounce.mail.planos.tim.com.br[lf][lf]ACL / HTTP/1.1[lf]Host: bounce.mail.planos.tim.com.br[crlf][instant_split][lf][lf]CHECKIN / HTTP/1.1[lf]Host:  www.timpromos.com.br[lf][lf]GET /appid HTTP/1.1[crlf]Host: s2.parkinhonet.xyz[crlf]Connection: upgrade[crlf]User-Agent: [ua][crlf]Upgrade: websocket[crlf][crlf][split]UNLOCK /? HTTP/1.1[crlf]Host: www.timpromos.com.br[crlf]Content-Length:9999999999999[crlf][crlf]",
       "sni": null
     },
     "config_openvpn": null,
@@ -151,7 +151,7 @@
       "v2ray_uuid": null
     },
     "proxy": {
-      "host": "compre.vivo.com.br#login.vivo.com.br",
+      "host": "bounce.mail.planos.tim.com.br#108.139.113.82#108.139.113.100#108.139.113.114#108.139.113.127#108.158.137.43#108.158.137.54#108.158.137.96#108.158.137.102#99.84.31.8#108.139.113.110#99.84.31.80#13.227.126.91#108.158.137.43#108.139.113.100#108.139.113.110#108.139.113.114#108.139.113.127#108.139.113.60#108.139.95.5#108.158.137.102#13.227.126.39#13.227.126.40#13.227.126.91#cdn-segment.dzcdn.net#tim-myplan.plat-m4u.io#launches.appsflyer.com#tim-myplan.plat-m4u.io#13.227.126.40#13.227.126.91#99.84.31.8#13.227.126.40#13.227.126.91#99.84.31.8#13.227.126.91#13.227.126.39#99.84.31.114#65.8.178.74#65.8.178.65#65.8.178.51#99.84.31.97#99.84.31.8#99.84.31.80#13.227.126.40#18.64.174.128#premier.sonos.dzcdn.net#13.227.126.91#13.227.126.39#99.84.31.114#65.8.178.74#65.8.178.65#65.8.178.51#99.84.31.97#99.84.31.8#99.84.31.80#13.227.126.40#108.139.113.107#108.139.113.60#108.139.113.110#108.139.113.91#18.64.174.128#bounce.mail.planos.tim.com.br#108.139.113.82#108.139.113.100#108.139.113.114#108.139.113.127#108.158.137.43#108.158.137.54#108.158.137.96#108.158.137.102#99.84.31.8#108.139.113.110#99.84.31.80#13.227.126.91#108.158.137.43#108.139.113.100#108.139.113.110#108.139.113.114#108.139.113.127#108.139.113.60#108.139.95.5#108.158.137.102#13.227.126.39#13.227.126.40#13.227.126.91",
       "port": 80
     },
     "server": {
