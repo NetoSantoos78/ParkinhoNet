@@ -2,8 +2,8 @@
   {
     "id": 816390,
     "category_id": 1,
-    "name": "Update online",
-    "description": "",
+    "name": "Vivo - Security",
+    "description": "Servidor principal",
     "config_payload": {
       "payload": "[delay_split]ACL / HTTP/ [crlf][crlf]",
       "sni": null
