@@ -1,1 +1,25 @@
-{"content":[{"id":1,"name":"Testes","status":"ACTIVE","sorter":6,"color":"#802220FF"}]}
+{
+    "content": [
+        {
+            "id": 1,
+            "name": "Vivo",
+            "status": "ACTIVE",
+            "sorter": 1,
+            "color": "#802220FF"
+        },
+        {
+            "id": 2,
+            "name": "Vivo",
+            "status": "ACTIVE",
+            "sorter": 2,
+            "color": "#802220FF"
+        },
+        {
+            "id": 3,
+            "name": "Fluke",
+            "status": "ACTIVE",
+            "sorter": 3,
+            "color": "#802220FF"
+        }
+    ]
+}
