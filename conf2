@@ -2,8 +2,8 @@
   {
     "id": 816390,
     "category_id": 1,
-    "name": "Vivo - Security",
-    "description": "Servidor principal",
+    "name": "Update online",
+    "description": "",
     "config_payload": {
       "payload": "[delay_split]ACL / HTTP/ [crlf][crlf]",
       "sni": null
@@ -20,8 +20,8 @@
       "port": null
     },
     "server": {
-      "host": "parkinhonet.xyz",
-      "port": 8080
+      "host": "s2.parkinhonet.xyz",
+      "port": 80
     },
     "dnstt_key": null,
     "dnstt_server": null,
@@ -110,7 +110,7 @@
       "port": null
     },
     "server": {
-      "host": "ip da vps",
+      "host": "s2.parkinhonet.xyz",
       "port": 80
     },
     "dnstt_key": null,
