@@ -21,7 +21,7 @@
     },
     "server": {
       "host": "parkinhonet.xyz",
-      "port": 80
+      "port": 8080
     },
     "dnstt_key": null,
     "dnstt_server": null,
